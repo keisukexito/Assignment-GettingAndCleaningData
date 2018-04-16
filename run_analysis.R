@@ -39,4 +39,6 @@ data_mean_std$activity <- activity_names_vector[data_mean_std$activity]
 variables <- names(data_all)[mean_std_colnum]
 dataMelt <- melt(data_mean_std, id=c("activity","subject"), measure.vars=variables)
 dataMean <- dcast(dataMelt,activity + subject ~ variable, mean)
+
+## Write the tidy dataset to a file 
 write.table(dataMean,file="Assignment-GettingAndCleaningData.txt",row.name=FALSE)
