@@ -1,11 +1,11 @@
 ## Getting and Cleaning Data Final Assignment
 
 ### This repository contains three files
-### README.md: 
+### 1. README.md: 
 (this file) which has descriptions of the scripts ("run_analysis.R") to create a tidy data file.
-### CODEBOOK.md: 
+### 2. CODEBOOK.md: 
 Code book of the tidy data.
-### run_analysis.R: 
+### 3. run_analysis.R: 
 script file to create a tidy data file ("Assignment-GettingAndCleaningData.txt") from Human Activity Recognition Using Smartphones Dataset
 
 ### Description of the script ("run_analysis.R")
