@@ -1,8 +1,8 @@
-## Code Book of Tify dataset ("Assignment-GettingAndCleaningData.txt")
+## Code Book of Tidy dataset ("Assignment-GettingAndCleaningData.txt")
 [1] activity: chr: type of activities. "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", or "LAYING"  
 [2] subject: int: id of person being tested.(1 to 30)
 ## All other variables below are means of the extracted mean (mean()) and standard deviation (std()) columns 
-from combined dataset by activity and by subject. datatype numeric.
+## from combined dataset by activity and by subject. datatype numeric.
 [3] tBodyAcc-mean()-X           
 [4] tBodyAcc-mean()-Y          
 [5] tBodyAcc-mean()-Z           
