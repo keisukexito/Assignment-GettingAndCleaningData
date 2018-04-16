@@ -1,7 +1,8 @@
 ## Getting and Cleaning Data Final Assignment
-### This fie contains 
-### 1. descriptions of the scripts ("run_analysis.R") to create a tidy data file ("Assignment-GettingAndCleaningData.txt" created from Human Activity Recognition Using Smartphones Dataset
-### 2. a code book of the tidy data. 
+### This repository contains 
+### README.md: (this file) which has descriptions of the scripts ("run_analysis.R") to create a tidy data file.
+### CODEBOOK.md: Code book of the tidy data.
+### run_analysis.R: script file to create a tidy data file ("Assignment-GettingAndCleaningData.txt") from Human Activity Recognition Using Smartphones Dataset
 
 ### Description of the scripts ("run_analysis.R")
 1. Load library to reshape data frames
@@ -21,7 +22,3 @@
 7. Use descriptive activity names to name the activities in the data set
 8. Create tidy data set with the average of each variable for each activity and each subject (dataMean)
 9. Write the tidy dataset to a file (Assignment-GettingAndCleaningData.txt) 
-
-### Code book of the tidy data
-
-
